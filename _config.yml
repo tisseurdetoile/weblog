@@ -21,12 +21,11 @@ navbar-links:
     - Socle Batch: 'https://github.com/tisseurdetoile/socle-batch'
     - Jbake-yinwang: 'https://github.com/tisseurdetoile/Jbake-yinwang'
 
-
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-tisseurdetoile.png"
+avatar: '/assets/img/avatar-tisseurdetoile.png'
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -34,7 +33,6 @@ round-avatar: true
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 #title-img: /path/to/image
-
 
 # --- Footer social media links --- #
 
@@ -78,7 +76,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "blog.tisseurdetoile.net"
+url-pretty: 'blog.tisseurdetoile.net'
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 150
@@ -96,16 +94,16 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+navbar-col: '#EAEAEA'
+navbar-text-col: '#404040'
+navbar-border-col: '#DDDDDD'
+page-col: '#FFFFFF'
+text-col: '#404040'
+link-col: '#008AFF'
+hover-col: '#0085A1'
+footer-col: '#EAEAEA'
+footer-text-col: '#777777'
+footer-link-col: '#404040'
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -187,7 +185,7 @@ date_format: '%d/%m, %Y'
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/Paris"
+timezone: 'Europe/Paris'
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -198,19 +196,17 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
+      layout: 'post'
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
+  - scope:
+      path: '' # any file that's not a post will be a "page" layout by default
     values:
-      layout: "page"
+      layout: 'page'
 
 # Exclude these files from production site
 exclude:
