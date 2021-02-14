@@ -20,6 +20,8 @@ En 2020 La famille à fait l'acquisition d'un vélo cargo et d'un Brompton
 > Urban Arrow Family
 > Un vélo qui remplace une deuxième voiture.
 
+Equipements :
+
 - Canopee Urban Arrow
 
 #### VéloTaff / VeloFamille
@@ -50,6 +52,8 @@ En 2020 La famille à fait l'acquisition d'un vélo cargo et d'un Brompton
 - Garmin Edge 830
 
 #### Vélo VTT
+
+![trek_4300](/assets/img/trek_4300D.png){: .mx-auto.d-block :}
 
 > Trek 4300 Disc
 > Un très vieu tagazou
